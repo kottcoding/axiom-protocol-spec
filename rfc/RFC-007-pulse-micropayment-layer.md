@@ -1,10 +1,22 @@
 # RFC-007 Pulse Micropayment Layer
 
-## Purpose
-Layer-2 micropayment system for:
-- AI payments
-- Streaming settlement
-- High-frequency commerce
+## Objective
+Provide scalable low-cost micropayments.
 
-## Settlement
-Pulse batches settle to Layer-1.
+## Layer Architecture
+```text
+User/AI
+ ↓
+Pulse Layer
+ ↓
+Axiom Layer-1
+```
+
+## Pulse Features
+- AI commerce
+- streaming payments
+- payment channels
+- high-frequency settlement
+
+## Security
+Pulse batches settle back to Layer-1 for finality.

@@ -1,12 +1,30 @@
 # RFC-003 Transaction & Fee Model
 
-## Fee Formula
+## Transaction Structure
+- sender
+- receiver
+- amount
+- nonce
+- gas_limit
+- signature
 
+## Dynamic Fee Market
 ```text
-Total Fee = Base Fee + Priority Fee
+TotalFee = BaseFee + PriorityFee
 ```
 
-## Allocation
-- Validator Pool
-- Commons Reserve
-- Burn
+## Base Fee
+Adjusted according to:
+- block congestion
+- mempool demand
+- network utilization
+
+## Fee Allocation
+- Validator pool
+- Commons reserve
+- Burn mechanism
+
+## AI Economy Support
+- streaming payments
+- autonomous recurring settlement
+- AI micropayments
